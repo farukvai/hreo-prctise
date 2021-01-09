@@ -1,0 +1,36 @@
+nav{
+height:60px;
+background: lightgray;
+}
+nav ul{
+    width:100%;
+    margin:auto;
+
+}
+nav>ul>li{
+float:left;
+
+}
+nav ul li{
+ padding:10px;
+list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black;
+
+}
+nav ul>li:hover{
+    background:chocolate;
+}
+.dropdown{
+    display:none;
+}
+
+nav>ul>li:hover ul{
+    display:block;
+    position: absolute;
+   
+
+}
